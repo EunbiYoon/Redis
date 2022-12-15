@@ -1,8 +1,8 @@
-import redis
+import dddd
 import time
 
 #connect
-r=redis.Redis(host='127.0.0.1', port=6379)
+r=dddd.Redis(host='127.0.0.1', port=6379)
 
 # set single data
 r.set("France","Paris")
